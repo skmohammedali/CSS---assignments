@@ -1,0 +1,146 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+header{
+    background-color:turquoise ;
+    color: white;
+    height: 50px;
+    text-decoration: underline;
+}
+#logos{
+    background-color:black ;
+    color: white;
+    height: 50px;
+}
+input{
+
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+label{
+    padding: 10px;
+}
+#submit{
+    width: 110px;
+    height: 40px;
+    margin-left: 300px;
+    cursor:pointer;
+    background-color: white;
+}
+input#submit{
+    background-repeat: no-repeat;
+    background-position: 8px 10px;
+    display: block;
+    background-size: 15px;
+    margin-bottom: 10px;
+    background-image: url("submit\ icon.png");
+    
+}
+#reset{
+    
+    width: 110px;
+    height: 40px;
+    cursor:pointer;
+    background-color: white;
+    margin-left: 170px;
+}
+input#reset{
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    display: block;
+    background-size: 15px;
+    margin-bottom: 10px;
+    background-image: url("reset\ icon.png");
+}
+#delete{
+    
+    width: 110px;
+    height: 40px;
+    cursor:pointer;
+    background-color: white;
+    margin-left: 170px;
+}
+input#delete{
+    background-repeat: no-repeat;
+    background-position: 6px 11px;
+    display: block;
+    background-size: 20px;
+    margin-bottom: 10px;
+    background-image: url("delete\ icon.png");
+}
+#button1{
+    
+    width: 150px;
+    height: 50px;
+    margin-left: 300px;
+    cursor:grabbing;
+}
+input#button1{
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    display: block;
+    background-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+#button2{
+    
+    width: 150px;
+    height: 50px;
+    cursor:progress;
+    margin-left: 170px;
+}
+input#button2{
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    display: block;
+    background-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+}
+#button3{
+    
+    width: 150px;
+    height: 50px;
+    cursor:no-drop;
+    margin-left: 170px;
+}
+input#button3{
+    background-repeat: no-repeat;
+    background-position: 6px 11px;
+    display: block;
+    background-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+}
+#inline{
+    text-indent: 10px;
+    display:flex
+}
+#submit:hover{
+    background-color: rgb(8, 183, 8);
+}
+#reset:hover{
+    background-color: orange;
+}
+#delete:hover{
+    background-color: red;
+}
+
+  
+  
+  
+  
+  
+  
+  

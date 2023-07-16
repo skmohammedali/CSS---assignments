@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+}
+form{
+    text-align: justify;
+    text-decoration: solid;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 500px;
+}
+input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+#name{
+    width: 500px;
+}
+#email{
+    width: 500px;
+}
+#password{
+    width: 500px;
+}
+#checkbox{
+    height: 20px;
+    appearance: none;
+    border: solid;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    
+}
+input#checkbox[type="checkbox"]:checked{
+    border-color: #090909;
+    background: -webkit-gradient(linear,
+    left top, left bottom, from(rgb(8, 211, 247)), to(rgb(38, 247, 237)));
+}
+#editcheckbox{
+    font-size: large;
+    text-align: start;
+    margin-right: 20px;
+}
+#submit{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+    background: -webkit-gradient(linear,
+    left top, left bottom, from(rgb(20, 138, 234)), to(rgb(16, 116, 232)));
+}

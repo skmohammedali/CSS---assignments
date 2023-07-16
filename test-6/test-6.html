@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="test-6.css">
+</head>
+<body>
+    <header>
+        <img src="review.JPG">
+    </header>
+    <form>
+    <fieldset>       
+        <div id="text">
+        <h1>Mentor Feedback Form</h1>
+        <p>Student experience is always something we strive to improve, hence, we request you to submit this 
+            quick survey and let us know your of thoughts (Do not worry, your feedback will be kept anonymous).</p>
+        </div>
+        </fieldset>
+        <br/>
+    <fieldset class="form">
+        <div id="Text">
+        <label for="name" > Name </label>
+        <br/>
+        <input type="text" id="name" placeholder="enter name" required>
+        </div>
+        </fieldset>
+        <br/>
+    <fieldset class="form">
+        <div id="Email">
+        <label for="email" > Email </label>
+        <br/>
+        <input type="email" id="email" placeholder="enter email" required>
+        </div>
+        </fieldset>
+        <br/>
+        <fieldset class="form">
+            <div id="Batch">
+            <label for="batch" > Batch/ Month Joined </label>
+            <br/>
+            <select id="batch">
+                <option selected>--Select-- </option>
+                <option> Dec 2022</option>
+                <option> Jan 2023</option>
+                <option> Feb 2023</option>
+                <option> Mar 2023</option>
+                <option> Apr 2023</option>
+                <option> Jun 2023</option>
+                <option> Jul 2023</option>
+                <option> Aug 2023</option>
+            </select>
+        </div>
+    </fieldset>
+    <br/>
+    <fieldset class="form" >
+        <div id="metor">
+        <label for="mentors" > Mentor's Name </label>
+        <br/>
+        <input type="radio" name="mentor" > Pranesh Sir &nbsp;
+        <input type="radio" name="mentor" > Piyush Ma'am &nbsp;
+        <input type="radio" name="mentor" > Swati Ma'am &nbsp;
+        </div>
+        </fieldset>
+        <br/>
+    <fieldset class="form" >
+        <div id="mentorperformance">
+        <label for="mentorperformance" > Mentor's Performance </label>
+        <br/>
+        <input type="checkbox" name="mentorperformance" > Good &nbsp;
+        <input type="checkbox" name="mentorperformance" > Very Good &nbsp;
+        <input type="checkbox" name="mentorperformance" > Exellent &nbsp;
+        </div>
+        </fieldset>
+        <br/>
+    <fieldset class="form" >
+        <div id="mentorperformance">
+        <label for="mentorperformance" > Feedback </label>
+        <br/>
+        <textarea rows="6" cols="50" required></textarea>
+        </div>
+        </fieldset>
+        <br/>
+        <div id="Submit">
+        <label for="submit" ></label>
+        <br/>
+        <input type="submit" id="submit" value="Submit" >
+        </div>
+    </form>
+</body>
+</html>

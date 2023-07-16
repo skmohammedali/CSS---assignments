@@ -1,0 +1,73 @@
+body{
+    background-color: turquoise;
+}
+fieldset{
+    margin-left: 34%;
+    padding: 30px;
+    text-align: left;
+    width: 30%;
+    height: 50%;
+    text-decoration: solid;
+    background-color: white;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    text-decoration: solid;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 100px;
+}   
+h3{
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+p{
+    font-size:small;
+    text-align: center;
+    color: gray;
+}
+form{
+    white-space:normal;
+}
+label{
+    text-decoration: solid;
+}
+input:hover{
+    background-color: whitesmoke;
+}
+input{
+    cursor:pointer;
+}
+#inline{
+    text-indent: 10px;
+    display: inline;    
+}
+#forgot{
+    margin-left: 90px;
+    color: blue;
+}
+#email,#password{
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+}
+#login{
+    margin-top: 30px;
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+label#NAM{
+    text-indent: 10px;
+    display: inline;    
+}
+#nam{
+    margin-left: 90px;
+}
+#singup{
+    color: blue;
+}

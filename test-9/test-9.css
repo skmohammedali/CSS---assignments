@@ -1,0 +1,25 @@
+body{
+    margin-left: 30%;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#editsubmit{
+    text-transform: uppercase;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: -webkit-gradient(linear,
+    left top, left bottom, from(rgb(18, 171, 241)), to(rgb(22, 171, 246)));
+}
+code{
+    font-size: 14px;
+}
+p{
+    font-size: large;
+    text-decoration: underline;
+}

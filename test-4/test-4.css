@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin-top: 6%;
+    background-color: aliceblue;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+fieldset{
+    margin-left: 35%;
+    height: 400px;
+    width: 300px;
+    height: 450px;
+    text-align: justify;
+    text-decoration: solid;
+    background-color: rgb(52, 114, 209);
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+}
+label{
+    margin-right: 200px;
+    text-transform: uppercase;
+}
+#ConfirmPassword{
+    margin-right: 150px;
+}
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+input:valid {
+    border-color: #00cc00;
+  }
+  
+  input:invalid {
+    border-color: #ff0000;
+  }
+#register{
+    margin-left: 90px;
+    width: 150px;
+    color: white;
+    background: linear-gradient(0deg, rgb(6, 137, 87) 0%, rgb(13, 214, 167) 100%);
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,132 @@
+h2{
+    text-transform: uppercase;
+    margin-left: 40%;
+}
+form{
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.3);
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    margin-left: 40%;
+}
+p{
+    display: inline;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+::placeholder{
+    text-transform: uppercase;
+    text-decoration: solid;
+    color: black;
+}
+
+label{
+    text-decoration: solid underline;
+    text-transform: uppercase;
+}
+
+#female{
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc; 
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="radio"],p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="radio"]:checked {
+    background-color: #007bff;
+    border-color: #007bff; 
+}
+
+input[type="radio"][id="female"]:checked {
+    background-color: #ff69b4;
+    border-color: #007bff; 
+}
+
+input[type="radio"][id="other"]:checked {
+    background-color: #ad69ff;
+    border-color: #007bff; 
+}
+
+input[type="radio"]:checked + p {
+    font-weight: bold;
+    color: #007bff; 
+}
+  
+input[type="radio"][id="female"]:checked + p {
+    font-weight: bold;
+    color: #ff69b4; 
+}
+  
+input[type="radio"][id="other"]:checked + p {
+    font-weight: bold;
+    color: #ad69ff; 
+}
+
+input[type="radio"][id="python"]:checked {
+    background-color: #ffe873;
+    border-color: #007bff; 
+}
+
+input[type="radio"][id="java"]:checked {
+    background-color: #f89820;
+    border-color: #007bff; 
+}
+
+input[type="radio"][id="javascript"]:checked {
+    background-color: #f0db4f;
+    border-color: #007bff; 
+}
+
+input[type="radio"][id="python"]:checked + p {
+    font-weight: bold;
+    color: #4b8bbe; 
+}
+  
+input[type="radio"][id="java"]:checked + p {
+    font-weight: bold;
+    color: #f89820; 
+}
+  
+input[type="radio"][id="javascript"]:checked + p {
+    font-weight: bold;
+    color: #323330; 
+}
+
+#submit{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 80px;
+    background: -webkit-gradient(linear,
+    left top, left bottom, from(rgb(20, 152, 240)), to(rgb(17, 104, 219)));
+    cursor: pointer;
+}
